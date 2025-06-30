@@ -1,73 +1,141 @@
-# Welcome to your Lovable project
+# Music Piracy Protection Service (MPPS)
 
-## Project info
+A comprehensive web application designed to protect music copyrights by detecting and analyzing unauthorized distribution of copyrighted music content across the internet.
 
-**URL**: https://lovable.dev/projects/53f36470-54f5-44e8-91f4-cb5cc1d0903b
+## 🎯 Overview
 
-## How can I edit this code?
+The Music Piracy Protection Service (MPPS) is an advanced digital rights management platform that helps record labels, artists, and content creators protect their intellectual property. The system uses AI-powered analysis and audio fingerprinting technology to identify unauthorized use of copyrighted music across various online platforms.
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+### Core Functionality
+- **Audio Fingerprinting**: Advanced content identification using digital audio fingerprints
+- **AI-Powered Detection**: Machine learning algorithms for piracy pattern recognition
+- **Website Classification**: Automated categorization of legitimate vs. unauthorized distribution sites
+- **Real-time Monitoring**: Continuous scanning of online platforms for copyright violations
+- **Decision Support System**: Intelligent recommendations for analysts and rights holders
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/53f36470-54f5-44e8-91f4-cb5cc1d0903b) and start prompting.
+### User Management
+- **Role-Based Access Control**: Three distinct user roles with appropriate permissions
+  - **Admin**: Full system access and user management
+  - **Analyst**: Content analysis and report generation
+  - **System Admin**: Technical configuration and maintenance
+- **Secure Authentication**: Industry-standard login and session management
 
-Changes made via Lovable will be committed automatically to this repo.
+### Analytics & Reporting
+- **Interactive Dashboard**: Real-time statistics and piracy detection metrics
+- **Comprehensive Reports**: Detailed analysis of copyright violations
+- **Activity Tracking**: Monitor recent detection events and system activity
+- **Visual Analytics**: Charts and graphs for data visualization
 
-**Use your preferred IDE**
+## 🛠️ Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Charts**: Recharts for data visualization
+- **Authentication**: Secure role-based access system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd mpps-web-app
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the application**
+   - Open your browser and navigate to `http://localhost:5173`
+   - Use the provided credentials to log in
+
+### Build for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📋 User Roles & Permissions
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Admin
+- Full access to all system features
+- User account management
+- System configuration
+- Analytics and reporting
 
-**Use GitHub Codespaces**
+### Analyst
+- Content analysis and review
+- Piracy detection workflows
+- Report generation
+- Case management
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### System Admin
+- Technical system configuration
+- Database management
+- Performance monitoring
+- Security settings
 
-## What technologies are used for this project?
+## 🔧 Available Scripts
 
-This project is built with:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run code linting
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📊 Key Metrics Tracked
 
-## How can I deploy this project?
+- Total content items monitored
+- Piracy incidents detected
+- Websites analyzed and classified
+- Detection accuracy rates
+- Response times and resolution status
 
-Simply open [Lovable](https://lovable.dev/projects/53f36470-54f5-44e8-91f4-cb5cc1d0903b) and click on Share -> Publish.
+## 🔒 Security Features
 
-## Can I connect a custom domain to my Lovable project?
+- Encrypted user authentication
+- Role-based access control
+- Secure session management
+- Data protection protocols
+- Audit logging for compliance
 
-Yes, you can!
+## 📈 System Status
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Current Status**: Functionally Complete ✅
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The MPPS platform includes all core features specified in the Software Requirements Specification (SRS) and Software Design Document (SDD), providing a complete solution for music copyright protection.
+
+## 🤝 Contributing
+
+This project follows standard development practices:
+- Code reviews for all changes
+- Comprehensive testing protocols
+- Documentation updates with new features
+- Security-first development approach
+
+## 📞 Support
+
+For technical support or feature requests, please contact the development team through the appropriate channels within your organization.
+
+## 📄 License
+
+This software is proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited.
+
+---
+
+**Note**: This system is designed to protect legitimate copyright holders' rights and should only be used in compliance with applicable copyright laws and regulations.
